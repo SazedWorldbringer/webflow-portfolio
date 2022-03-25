@@ -521,6 +521,7 @@ button {
   /* Footer */
   .footer {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 2.5rem 3rem;
@@ -530,6 +531,10 @@ button {
     text-transform: uppercase;
     font-size: 14px;
     letter-spacing: 2px;
+  }
+
+  .footer-links {
+    flex-direction: row;
   }
 
   .footer-links .list-item {
