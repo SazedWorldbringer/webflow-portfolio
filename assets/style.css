@@ -247,6 +247,14 @@ button {
   object-fit: cover;
   margin-bottom: 2rem;
   box-shadow: 0 4px 12px hsla(0, 0%, 20%, 0.3);
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  transition: 300ms;
+}
+
+.project:hover .project-image {
+  filter: none;
+  -webkit-filter: grayscale(0);
 }
 
 .project-description {
